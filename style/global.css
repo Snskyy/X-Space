@@ -1,0 +1,110 @@
+.header {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    padding: 20px 10px;
+    width: 100%;
+  }
+
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  .logo{
+      width: 100px;
+      height: auto;
+      align-items: center;
+  }
+  
+  .header a:hover {
+    background-color: #FFD9C0;
+    color: #062c43;
+  }
+
+  .header a.active {
+    background-color: #FAF0D7;
+    color: #062c43;
+  }
+  
+  .header-right {
+    float: right;
+    padding-right: 40px;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./ASET/BACKROUND.png);
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+  }
+  
+  .kotakfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .footerinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:left;
+    width: 220px;
+    height: 220px;
+    padding: 15px;
+  }
+
+  .judulfooter{
+    color: white;
+    font-size: 25px;
+    }
+
+  .isifooter{
+    color: #9ccddc;
+    text-decoration: none;
+  }
+
+  .COPYRIGHT{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #9ccddc;
+    padding-right:10px;
+    padding-bottom: 10px;
+  }
+
+  .imglogofooter{
+    padding-top: 30px;
+  }
+
+  html,body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+  }
+
+  @font-face {
+    font-family: font;
+    src: url(./font/FONT.ttf);
+  }
+  body{
+    background-image: url(./ASET/BACKROUND.png);
+    font-family: font;
+}
+
+input[type=Submit]{
+  font-family:font;
+}

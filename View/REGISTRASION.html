@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRASION</title>
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/registrasion.css">
+</head>
+<body>
+    <div class="header">
+        <img src="../style/ASET/LOGO.png" class="logo" alt="">
+        <div class="header-right">
+          <a  href="../HOMEPAGE.html">Home</a>
+          <a href="./SOLARSYSTEM.html">Solar System</a>
+          <a href="./SATELITE.html">Satelite</a>
+          <a class="active" href="./REGISTRASION.html">Registration</a>
+        </div>
+    </div>
+    <div class="how">
+
+        <div class="container">
+            <form action="" method="POST">
+                <div class="title">
+                    <div>REGISTRATION</div> 
+                    <div>Please fill this form to join our comunity</div> 
+                </div>
+    
+            <div class="userdetail">
+                <div class="kotakkonten">
+                    <label for="name_input">Name</label>
+                    <input type="text" id="name_input" placeholder="Max 100 Character">
+                </div>
+    
+                <div class="kotakkonten">
+                    <label for="phone_input">Phone Number</label>
+                    <input type="number" id="phone_input"  placeholder="Input Phone Number">
+                </div>  
+                
+                <div class="kotakkonten">
+                    <label for="email_input">Email Address</label>
+                    <input type="text" id="email_input" placeholder=" Input Email">
+                </div>
+
+                <div class="kotakkonten">
+                    <label for="password_input">Password</label>
+                    <input type="password" id="password_input" placeholder="Input Password">
+                </div>
+                
+                <div class="kotakkonten">
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" id="confirm_password" placeholder="Input Password">
+                </div>
+
+                <div class="kotakkonten">
+                    <label for="birth_input">Birth</label>
+                    <input type="date" id="birth_input" placeholder="Input Birth">
+                </div>
+
+                <div class="kotakkonten">
+                    <label for="address_input">Address</label>
+                    <input type="text" id="address_input" placeholder="Input Address ">
+                </div>
+    
+                <div class="konten">
+                    <label for="gendermale">Male</label>
+                    <input type="radio" id="gendermale" name="gender">
+                    <label for="genderfemale">Female</label>
+                    <input type="radio" id="genderfemale" name="gender">
+                </div>
+                <div class="konten">
+                    <input type="checkbox" id="checkbox_input">
+                    <label for="">I agree to all terms and conditions</label>
+                </div>
+            </div>
+            
+            
+           
+    
+            <div class="kotakbtn">
+                <div class="button">
+                    <input type="Submit" id="Submit">
+                </div>  
+            </div>
+            <script>
+                document.getElementById("Submit").addEventListener("click", ()=>{
+                    alert("Congratulation for register our comunity and Welcome!");
+                })
+            </script>
+            </form> 
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="kotakfooter">
+            <img src="../style/ASET/LOGO.png" class="imglogofooter" alt="">
+            <div class="footerinfo">
+                <div class="judulfooter">CUSTOMER SERVICE</div>
+                <div class="isifooter">FAQ</div>
+                <div class="isifooter">CONTACT US</div>
+            </div>
+            <div class="footerinfo">
+                <div class="judulfooter">ABOUT XSPACE</div>
+                <div class="isifooter">ABOUT US</div>
+                <div class="isifooter">DONATION</div>
+            </div>
+            <div class="footerinfo">
+                <div class="judulfooter">TERM</div>
+                <div class="isifooter">TERMS OF USE</div>
+                <div class="isifooter">PRIVACY</div>
+                <div class="isifooter">COOKIE NOTICE</div>
+            </div>
+        </div>
+        <div class="COPYRIGHT">© 2022, XSpace. All rights reserved.</div>
+    </div>
+
+
+</body>
+</html>
